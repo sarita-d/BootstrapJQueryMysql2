@@ -1,0 +1,40 @@
+*{
+	magin: 0;
+	padding: 0;
+}
+:root{
+	--primary: #111b54;
+	--light: #ffffff;
+	--grey: #efefef;
+}
+
+body{
+	overflow: hidden;
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	color: var(--primary);
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.bg-primary{
+	background-color: var(--primary) !important;
+}
+
+#sidebar-container{
+	min-height: 100vh;
+}
+#sidebar-container .logo{
+	padding: .875rem 1.25rem;
+}
+sidebar_container .menu{
+	width: 28rem;
+}
+.avatar{
+	max-width: 35px;
+}
+.color-green{
+	color: green;
+}
